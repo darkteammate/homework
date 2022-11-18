@@ -1,0 +1,13 @@
+
+name: homework
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script with my name
+        run: echo Hello, Vladyslav!
+
